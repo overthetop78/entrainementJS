@@ -1,0 +1,87 @@
+div#projects {
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+div.project {
+    display: block;
+    background-color: aquamarine;
+    border: 1px solid gray;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+div.titre {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div.titre:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+div.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 11px;
+    font-style: italic;
+}
+
+div.auteur {
+    display: inline-block;
+    text-align: left;
+}
+div.dateAjout {
+    display: inline-block;
+    text-align: right;
+}
+
+div.like {
+    display: flex;
+    justify-content: right;
+    margin: 10px;
+}
+div.like div {
+    width: 30px;
+    max-width: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+div.btnLike {
+    display: flex;
+    justify-content: end;
+}
+
+div.btnLike input {
+    margin: 0 5px 0 5px;
+}
+
+/* Modale (Dialog) */
+
+dialog{ 
+    border-radius: 10px; 
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3); 
+    width: 400px;
+    height: 400px;
+    top: 100px;
+} 
+dialog::backdrop{ 
+    background-color: rgba(0, 0, 0, 0.6); 
+} 
